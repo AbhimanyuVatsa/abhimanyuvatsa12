@@ -906,46 +906,46 @@ button:hover
     }
 }
 
-@media (max-width: 768px) {
+/* Common styles for different breakpoints */
+.header {
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* Styles for max-width: 480px */
+@media (max-width: 480px) {
     .header {
         padding: 10px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 25px;
+        text-align: center;
     }
 
     .navbar a {
-        font-size: 20px;
-        margin-left: 15px;
+        display: none;
     }
-}
 
-/* Responsive styles for mobile devices */
-@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        font-size: 14px;
+        padding-left: 2%;
+    }
 
     .home {
         padding: 30px 5%;
     }
 
-    .content-right {
-        width: 100%;
-        text-align: center;
-    }
-
-    .content-right img {
-        display: none; 
-    }
-
-    .liquid-shape {
-        display: none; 
-    }
-
-    .home-content {
-        margin-right: 0;
-    }
-
     .home-content h3 {
-        font-size: 32px;
-    }
-
-    .home-content h3:nth-of-type(2) {
+        font-size: 28px;
         margin-bottom: 20px;
     }
 
@@ -966,67 +966,201 @@ button:hover
         font-size: 14px;
         padding: 10px 15px;
     }
-}
-@media (max-width: 768px) {
-    .header {
-        padding: 2% 2%;
+
+    .about-text h4 {
+        font-size: 20px;
+        margin-bottom: 1rem;
     }
 
-    .logo {
-        font-size: 4vw;
+    .about-text p {
+        font-size: 14px;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
     }
 
-    .navbar a {
-        display: none;
-    }
-    .content-right img {
-        display: none; 
+    .container {
+        padding: 40px;
     }
 
-    .liquid-shape {
-        display: none; 
+    .services-list {
+        grid-template-columns: 1fr;
     }
 
-}
-@media (max-width:1690px) {
-    .content-right img {
-        display: none; 
+    .bar {
+        font-size: 18px;
     }
 
-    .liquid-shape {
-        display: none; 
+    .sub-title {
+        font-size: 50px;
+        margin-bottom: 3rem;
     }
 
-    
-}
-
-@media (max-width: 480px) {
-    .header {
-        padding: 2% 2%;
+    .exp {
+        font-size: 40px;
+        padding-bottom: 20px;
     }
 
-    .logo {
-        font-size: 5vw;
+    .container {
+        padding: 40px 20px;
     }
 
-    .navbar a {
-        display: none;
+    .services-list div {
+        padding: 10px;
     }
 
-    body {
-        overflow-x: hidden;
+    .services-list div i {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .services-list div h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .services-list div a {
+        margin-top: 10px;
+    }
+
+    .readmore-box {
+        bottom: -40px;
+        padding: 8px 16px;
         font-size: 14px;
     }
+
+    .container1 {
+        width: auto;
+        padding: 0 20px;
+        margin: 0 10px;
+        margin-bottom: -20px;
+        margin-left: 15%;
+    }
+
+    .heading1 {
+        margin-bottom: 10px;
+    }
+
+    .Technical-bars .bar {
+        margin: 10px 0;
+    }
+
+    .Technical-bars .bar .info span {
+        font-size: 14px;
+    }
+
+    .radial-bars .radial-bar {
+        width: 100%;
+        height: 150px;
+    }
+
+    .radial-bars .radial-bar svg {
+        width: 60px;
+        height: 80px;
+    }
+
+    .radial-bar .text {
+        font-size: 12px;
+    }
+
+    .progress-line span::after {
+        top: -20px;
+        right: -15px;
+        font-size: 10px;
+    }
+
+    .progress-line span::before {
+        border-width: 5px;
+        top: -6px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-text h2 {
+        font-size: 30px;
+    }
+
+    .contact-text h4 {
+        font-size: 14px;
+    }
+
+    .contact-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contact-list i {
+        font-size: 14px;
+    }
+
+    .contact-form form input,
+    form textarea {
+        padding: 12px;
+    }
+
+    .contact-form textarea {
+        height: 120px;
+    }
+
+    .contact-form form .send {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .last-text p {
+        padding: 4px 0;
+    }
+
+    .top i {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .experience-container {
+        margin: 0rem 1rem 1rem 1rem;
+        padding: 10px;
+    }
+
+    .experience {
+        font-size: 14px;
+        padding-left: 0.5rem;
+        padding-bottom: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
 }
+
+/* Styles for max-width: 768px */
 @media (max-width: 768px) {
+    .header {
+        padding: 2% 2%;
+        height: 100px;
+    }
+
+    .logo {
+        font-size: 50px;
+    }
+
+    .content-right img,
+    .liquid-shape,
     .about-img img {
-        display: none; 
+        display: none;
+    }
+
+    .navbar a,
+    .content-right img {
+        display: none;
     }
 
     .about-text {
         margin-top: 4rem;
         grid-column: span 2;
-        margin-left: 1rem; 
+        margin-left: 1rem;
     }
 
     .about-text h4 {
@@ -1038,251 +1172,77 @@ button:hover
         margin-bottom: 1.5rem;
         margin-right: 1.5rem;
     }
-}
 
-@media (max-width: 480px) {
-    .about-text h4 {
-        font-size: 20px;
-        margin-bottom: 1rem;
-    }
-
-    .about-text p {
-        font-size: 14px;
-        margin-bottom: 1rem;
-        margin-right: 1rem;
-    }
-}
-@media only screen and (max-width: 768px) {
     .container {
         padding: 40px;
     }
+
     .services-list {
         grid-template-columns: 1fr;
     }
+
     .container1 {
         width: 100%;
         padding: 0 30px;
         margin: 0px 20px;
     }
+
     .bar {
         font-size: 18px;
     }
-}
 
-
-@media only screen and (max-width: 480px) {
-    .sub-title {
-        font-size: 50px;
-        margin-bottom: 3rem;
-    }
-    .exp {
-        font-size: 40px;
-        padding-bottom: 20px;
-    }
-    .container {
-        padding: 40px 20px;
-    }
-    .services-list div {
-        padding: 10px;
-    }
-    .services-list div i {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    .services-list div h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    .services-list div a {
-        margin-top: 10px;
-    }
-    .readmore-box {
-        bottom: -40px;
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-    .container1 {
-        width: auto;
-        padding: 0 20px;
-        margin: 0 10px;
-        margin-bottom: -20px;
-        margin-left: 20%;
-    }
-    .heading1 {
-        margin-bottom: 10px;
-    }
-    .bar {
-        font-size: 18px;
-    }
-    .Technical-bars .bar {
-        margin: 10px 0;
-    }
-    .Technical-bars .bar .info span {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
     .radial-bars .radial-bar {
         width: 100%;
     }
+
     .radial-bars .radial-bar svg {
         width: 50px;
         height: 50px;
     }
+
     .radial-bar .text {
         font-size: 14px;
     }
-}
 
-/* Media Query for mobile devices */
-@media only screen and (max-width: 480px) {
-    .radial-bars .radial-bar {
-        width: 100%;
-        height: 150px;
-
-    }
-    .radial-bars .radial-bar svg {
-        width: 60px;
-        height: 80px;
-    }
-    .radial-bar .text {
-        font-size: 12px;
-    }
-    .progress-line span::after {
-        top: -20px;
-        right: -15px;
-        font-size: 10px;
-    }
-    .progress-line span::before {
-        border-width: 5px;
-        top: -6px;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .radial-bars .radial-bar {
-        width: 50%;
-    }
-    .radial-bars .radial-bar svg {
-        width: 80px;
-        height: 120px;
-    }
-    .radial-bar .text {
-        font-size: 14px;
-    }
-    .progress-line span::after {
-        display: none;
-    }
-}
-
-/* Media Query for mobile devices */
-@media only screen and (max-width: 480px) {
-    .radial-bars .radial-bar {
-        width: 50%;
-        height: 150px;
-    }
-    .radial-bars .radial-bar svg {
-        width: 60px;
-        height: 80px;
-    }
-    .radial-bar .text {
-        font-size: 12px;
-    }
-    .progress-line span::after {
-        display: none;
-    }
-    .progress-line span::before {
-        border-width: 5px;
-        top: -6px;
-    }
-}
-@media only screen and (max-width: 768px) {
     .contact {
         grid-template-columns: 1fr;
     }
+
     .contact-text h2 {
         font-size: 40px;
     }
+
     .contact-form form .send {
         font-size: 12px;
         padding: 8px 12px;
     }
+
     .last-text p {
         padding: 6px 0;
     }
-}
 
-/* Media Query for mobile devices */
-@media only screen and (max-width: 480px) {
-    .contact {
-        grid-template-columns: 1fr;
-    }
-    .contact-text h2 {
-        font-size: 30px;
-    }
-    .contact-text h4 {
-        font-size: 14px;
-    }
-    .contact-text p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .contact-list i {
-        font-size: 14px;
-    }
-    .contact-form form input,
-    form textarea {
-        padding: 12px;
-    }
-    .contact-form textarea {
-        height: 120px;
-    }
-    .contact-form form .send {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
-    .last-text p {
-        padding: 4px 0;
-    }
-    .top i {
-        font-size: 14px;
-        padding: 6px;
-    }
-    .experience-container {
-        margin: 0rem 1rem 1rem 1rem;
-        padding: 10px;
-    }
-    .experience {
-        font-size: 14px;
-        padding-left: 0.5rem;
-        padding-bottom: 10px;
-    }
-    button {
-        margin-top: 15px;
-        padding: 6px 12px;
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 768px) {
     .exp {
         font-size: 40px;
     }
+
     .exp span {
-        display: block; /* Each word on a new line */
-        margin-top: 35px; /* Add some spacing between the words */
+        display: block;
+        margin-top: 35px;
     }
 }
 
-/* Media Query for mobile devices */
-@media only screen and (max-width: 480px) {
-    .exp {
-        font-size: 30px;
-        padding-bottom: 15px;
+@media (max-width: 1690px) {
+    .content-right img,
+    .liquid-shape {
+        display: none;
     }
 }
+
+
+/* Styles for max-width: 600px */
 @media only screen and (max-width: 600px) {
     .exp span {
-        display: block; /* Each word on a new line */
-        margin-top: 35px; /* Add some spacing between the words */
+        display: block;
+        margin-top: 35px;
     }
 }
