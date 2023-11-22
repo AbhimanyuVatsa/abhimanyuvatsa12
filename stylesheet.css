@@ -1060,9 +1060,9 @@ button:hover
         grid-template-columns: 1fr;
     }
     .container1 {
-        width: auto;
+        width: 100%;
         padding: 0 30px;
-        margin: 0 20px;
+        margin: 0px 20px;
     }
     .bar {
         font-size: 18px;
@@ -1105,7 +1105,8 @@ button:hover
         width: auto;
         padding: 0 20px;
         margin: 0 10px;
-        margin-bottom: 100px;
+        margin-bottom: -20px;
+        margin-left: 25%;
     }
     .heading1 {
         margin-bottom: 10px;
@@ -1114,7 +1115,7 @@ button:hover
         font-size: 18px;
     }
     .Technical-bars .bar {
-        margin: 20px 0;
+        margin: 10px 0;
     }
     .Technical-bars .bar .info span {
         font-size: 14px;
@@ -1123,11 +1124,11 @@ button:hover
 
 @media only screen and (max-width: 768px) {
     .radial-bars .radial-bar {
-        width: 50%;
+        width: 100%;
     }
     .radial-bars .radial-bar svg {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
     }
     .radial-bar .text {
         font-size: 14px;
@@ -1139,6 +1140,7 @@ button:hover
     .radial-bars .radial-bar {
         width: 100%;
         height: 150px;
+
     }
     .radial-bars .radial-bar svg {
         width: 60px;
@@ -1265,6 +1267,10 @@ button:hover
     .exp {
         font-size: 40px;
     }
+    .exp span {
+        display: block; /* Each word on a new line */
+        margin-top: 35px; /* Add some spacing between the words */
+    }
 }
 
 /* Media Query for mobile devices */
@@ -1272,5 +1278,11 @@ button:hover
     .exp {
         font-size: 30px;
         padding-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .exp span {
+        display: block; /* Each word on a new line */
+        margin-top: 35px; /* Add some spacing between the words */
     }
 }
