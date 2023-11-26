@@ -917,253 +917,256 @@ button:hover
 }
 
 /* Styles for max-width: 480px */
-@media (max-width: 480px) {
-    .header {
-        padding: 10px;
-        height: 10px;
-        align-items: center;
-        text-align: center;
-    }
+    @media (max-width: 480px) {
+        .header {
+            padding: 10px;
+            height: 10px;
+            align-items: center;
+            text-align: center;
+        }
 
-    .logo {
-        font-size: 15px;
-        text-align: center;
-    }
-
-
-    .navbar a {
-        display: none;
-    }
-
-    body {
-        overflow-x: hidden;
-        font-size: 14px;
-        padding-left: 2%;
-    }
-
-    .home content{
-        align-items: center;
-    }
+        .logo {
+            font-size: 15px;
+            text-align: center;
+        }
 
 
-    .home-content h3 {
-        font-size: 20px;
-        margin-bottom: 5px;
-        display: inline;
-    }
-    
+        .navbar a {
+            display: none;
+        }
 
-    .home-content h1 {
-        font-size: 42px;
-    }
+        body {
+            overflow-x: hidden;
+            font-size: 14px;
+            padding-left: 2%;
+        }
 
-    .home-content p {
-        font-size: 16px;
-    }
+        .home content{
+            align-items: center;
+        }
 
-    .home-sci a {
-        font-size: 16px;
-        margin: 20px 10px;
-    }
 
-    .btn-box {
-        font-size: 14px;
-        padding: 10px 15px;
-    }
+        .home-content h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            display: inline;
+        }
+        
 
-    .about-text h4 {
-        font-size: 20px;
-        margin-bottom: 1rem;
-        text-align: justify;
-    }
+        .home-content h1 {
+            font-size: 42px;
+        }
 
-    .about-text p {
-        font-size: 14px;
-        margin-bottom: 1rem;
-        margin-right: 1rem;
-    }
+        .home-content p {
+            font-size: 16px;
+        }
 
-    .about-img{
-        display: none;
-    }
+        .home-sci a {
+            font-size: 16px;
+            margin: 20px 10px;
+        }
 
-    .container {
-        padding: 40px;
-    }
+        .btn-box {
+            font-size: 14px;
+            padding: 10px 15px;
+        }
 
-    .services-list {
-        grid-template-columns: 1fr;
-    }
+        .about-text h4 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
 
-    .bar {
-        font-size: 18px;
-    }
+        .about-text p {
+            font-size: 14px;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+        }
 
-    .sub-title {
-        font-size: 50px;
-        margin-bottom: 3rem;
-    }
+        .about-img{
+            display: none;
+        }
 
-    .exp {
-        font-size: 40px;
-        padding-bottom: 20px;
-    }
+        .container {
+            padding: 40px;
+        }
 
-    .container {
-        padding: 40px 20px;
-    }
+        .services-list {
+            grid-template-columns: 1fr;
+        }
 
-    .services-list div {
-        padding: 10px;
-    }
+        .bar {
+            font-size: 18px;
+        }
 
-    .services-list div i {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
+        .sub-title {
+            font-size: 50px;
+            margin-bottom: 3rem;
+        }
 
-    .services-list div h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+        .exp {
+            font-size: 40px;
+            padding-bottom: 20px;
+        }
 
-    .services-list div a {
-        margin-top: 10px;
-    }
+        .container {
+            padding: 40px 20px;
+        }
 
-    .readmore-box {
-        bottom: -40px;
-        padding: 8px 16px;
-        font-size: 14px;
-    }
+        .services-list div {
+            padding: 10px;
+        }
 
-    .container1 {
-        width: auto;
-        padding: 0 20px;
-        margin: 0 10px;
-        margin-bottom: -20px;
-        margin-left: 15%;
-        align-items: center;
-    }
+        .services-list div i {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
 
-    .heading1 {
-        margin-bottom: 10px;
-    }
+        .services-list div h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
 
-    .Technical-bars .bar {
-        margin: 10px 0;
-    }
+        .services-list div a {
+            margin-top: 10px;
+        }
 
-    .Technical-bars .bar .info span {
-        font-size: 14px;
-    }
+        .readmore-box {
+            bottom: -40px;
+            padding: 8px 16px;
+            font-size: 14px;
+        }
 
-    .radial-bars {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      
-    }
-    
-    .radial-bar {
-        width: calc(50% - 10px); 
-        height: 150px;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-    }
+        .container1 {
+            width: auto;
+            padding: 0 20px;
+            margin: 0 10px;
+            margin-bottom: -20px;
+            margin-left: 15%;
+            align-items: center;
+        }
 
-    .radial-bar svg {
-        width: 60px;
-        height: 80px;
-    }
-    
-    .radial-bar .text {
-        font-size: 12px;
-        text-align: center;
-        margin-right: 0; /* Remove margin-right */
-        margin-top: auto; /* Align text to the bottom of the radial bar */
-    }
+        .heading1 {
+            margin-bottom: 10px;
+        }
 
-    .progress-line span::after {
-        top: -20px;
-        right: -15px;
-        font-size: 10px;
-        display: none;
-    }
+        .Technical-bars .bar {
+            margin: 10px 0;
+        }
 
-    .progress-line span::before {
-        border-width: 5px;
-        top: -6px;
-    }
+        .Technical-bars .bar .info span {
+            font-size: 14px;
+        }
 
-    .contact {
-        grid-template-columns: 1fr;
-    }
+        .radial-bars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        
+        }
+        
+        .radial-bar {
+            width: calc(50% - 10px); 
+            height: 150px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
 
-    .contact-text h2 {
-        font-size: 30px;
-    }
+        .radial-bar svg {
+            width: 60px;
+            height: 80px;
+        }
+        
+        .radial-bar .text {
+            font-size: 12px;
+            text-align: center;
+            margin-right: 0; /* Remove margin-right */
+            margin-top: auto; /* Align text to the bottom of the radial bar */
+        }
 
-    .contact-text h4 {
-        font-size: 14px;
-    }
+        .progress-line span::after {
+            top: -20px;
+            right: -15px;
+            font-size: 10px;
+            display: none;
+        }
 
-    .contact-text p {
-        font-size: 14px;
-        line-height: 20px;
-    }
+        .progress-line span::before {
+            border-width: 5px;
+            top: -6px;
+        }
 
-    .contact-list i {
-        font-size: 14px;
-    }
+        .contact {
+            grid-template-columns: 1fr;
+        }
 
-    .contact-form form input,
-    form textarea {
-        padding: 12px;
-    }
+        .contact-text h2 {
+            font-size: 30px;
+        }
 
-    .contact-form textarea {
-        height: 120px;
-    }
+        .contact-text h4 {
+            font-size: 14px;
+        }
 
-    .contact-form form .send {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
+        .contact-text p {
+            font-size: 14px;
+            line-height: 20px;
+        }
 
-    .last-text p {
-        padding: 4px 0;
-    }
+        .contact-list i {
+            font-size: 14px;
+        }
 
-    .top i {
-        font-size: 14px;
-        padding: 6px;
-    }
+        .contact-form form input,
+        form textarea {
+            padding: 12px;
+        }
 
-    .experience-container {
-        margin: 0rem 1rem 1rem 1rem;
-        padding: 10px;
-    }
+        .contact-form textarea {
+            height: 120px;
+        }
 
-    .experience {
-        font-size: 14px;
-        padding-left: 0.5rem;
-        padding-bottom: 10px;
-    }
-    button {
-        margin-top: 15px;
-        padding: 6px 12px;
-        font-size: 12px;
-    }
+        .contact-form form .send {
+            font-size: 12px;
+            padding: 6px 10px;
+        }
 
-    .exp span {
-        display: block;
-        margin-top: 35px;
-    }
-}
+        .last-text p {
+            padding: 4px 0;
+        }
 
+        .top i {
+            font-size: 14px;
+            padding: 6px;
+        }
+
+        .experience-container {
+            margin: auto;
+            padding: 10px;
+        }
+
+        .experience {
+            font-size: 14px;
+            padding-left: 0.5rem;
+            padding-bottom: 10px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .exp span {
+            display: block;
+            margin-top: 35px;
+        }
+        .last-text p {
+            padding: 6px 0;
+            background-color: #fff;
+            color: #3a4a62;
+        }
 /* Styles for max-width: 768px */
 @media (max-width: 768px) {
     .header {
@@ -1284,6 +1287,8 @@ button:hover
 
     .last-text p {
         padding: 6px 0;
+        background-color: #fff;
+        color: #3a4a62;
     }
 
     .exp {
@@ -1295,8 +1300,9 @@ button:hover
         margin-top: 35px;
     }
 
-    .experience-container{
-        margin: auto;
+    .experience-container {
+        margin: 0rem 15px 5px 10px;
+        padding: 20px;
     }
 }
 
@@ -1325,3 +1331,258 @@ button:hover
         margin-top: 30px; /* Adjust the margin for smaller screens */
     }
 }
+
+@media (max-width: 375px) {
+    .header {
+        padding: 10px;
+        height: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .navbar a {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+        font-size: 14px;
+        padding-left: 2%;
+    }
+
+    .home content{
+        align-items: center;
+    }
+
+
+    .home-content h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    
+
+    .home-content h1 {
+        font-size: 42px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        font-size: 16px;
+        margin: 15px 5px;
+    }
+
+    .btn-box {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about-img{
+        display: none;
+    }
+
+    .container {
+        padding: 40px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
+    .bar {
+        font-size: 18px;
+    }
+
+    .sub-title {
+        font-size: 50px;
+        margin-bottom: 3rem;
+    }
+
+    .exp {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        padding: 40px 20px;
+    }
+
+    .services-list div {
+        padding: 10px;
+    }
+
+    .services-list div i {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .services-list div h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .services-list div a {
+        margin-top: 10px;
+    }
+
+    .readmore-box {
+        bottom: -40px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .container1 {
+        width: auto;
+        padding: 0 20px;
+        margin: 0 10px;
+        margin-bottom: -20px;
+        margin-left: 15%;
+        align-items: center;
+    }
+
+    .heading1 {
+        margin-bottom: 10px;
+    }
+
+    .Technical-bars .bar {
+        margin: 10px 0;
+    }
+
+    .Technical-bars .bar .info span {
+        font-size: 14px;
+    }
+
+    .radial-bars {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+    }
+
+    .radial-bar {
+        width: calc(50% - 10px); /* Adjust the width and margin according to your design */
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .radial-bar svg {
+        width: 60px;
+        height: 80px;
+    }
+
+    .radial-bar .text {
+        font-size: 14px; /* Increase the font size */
+        text-align: center;
+        margin-right: 0; 
+
+    .progress-line span::after {
+        top: -20px;
+        right: -15px;
+        font-size: 10px;
+        display: none;
+    }
+
+    .progress-line span::before {
+        border-width: 5px;
+        top: -6px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        padding: auto;
+    }
+
+    .contact-text h2 {
+        font-size: 30px;
+    }
+
+    .contact-text h4 {
+        font-size: 14px;
+    }
+
+    .contact-text p {
+        font-size: 20px;
+        line-height: 20px;
+        justify-content: center;
+       padding: auto;
+
+    }
+
+    .contact-list i {
+        font-size: 14px;
+    }
+
+    .contact-form form input,
+    form textarea {
+        padding: 12px;
+    }
+
+    .contact-form textarea {
+        height: 120px;
+    }
+
+    .contact-form form .send {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .last-text p {
+        background-color: #fff;
+        color: #3a4a62;
+        text-align: center;
+    }
+
+    .top i {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .experience-container {
+        width: 80%;
+        margin: 0rem 5rem 2rem 5rem;
+        padding: 20px;
+    }
+
+    .experience {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .exp span {
+        display: block;
+        margin-top: 35px;
+    }
+} 
+}
+    }
