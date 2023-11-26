@@ -941,15 +941,17 @@ button:hover
         padding-left: 2%;
     }
 
-    .home {
-        padding: 10px 5%;
+    .home content{
+        align-items: center;
     }
 
+
     .home-content h3 {
-        font-size: 28px;
-        margin-bottom: 10px;
-        width: 100%;
+        font-size: 20px;
+        margin-bottom: 5px;
+        display: inline;
     }
+    
 
     .home-content h1 {
         font-size: 42px;
@@ -972,12 +974,17 @@ button:hover
     .about-text h4 {
         font-size: 20px;
         margin-bottom: 1rem;
+        text-align: justify;
     }
 
     .about-text p {
         font-size: 14px;
         margin-bottom: 1rem;
         margin-right: 1rem;
+    }
+
+    .about-img{
+        display: none;
     }
 
     .container {
@@ -1036,6 +1043,7 @@ button:hover
         margin: 0 10px;
         margin-bottom: -20px;
         margin-left: 15%;
+        align-items: center;
     }
 
     .heading1 {
@@ -1053,17 +1061,19 @@ button:hover
     .radial-bars {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
-        align-content: center;
+        gap: 10px;
+      
     }
     
     .radial-bar {
-        width: calc(50% - 10px); /* Adjust the width and margin according to your design */
+        width: calc(50% - 10px); 
         height: 150px;
-        justify-content: center;
-        align-content: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
     }
-    
+
     .radial-bar svg {
         width: 60px;
         height: 80px;
@@ -1071,12 +1081,16 @@ button:hover
     
     .radial-bar .text {
         font-size: 12px;
+        text-align: center;
+        margin-right: 0; /* Remove margin-right */
+        margin-top: auto; /* Align text to the bottom of the radial bar */
     }
 
     .progress-line span::after {
         top: -20px;
         right: -15px;
         font-size: 10px;
+        display: none;
     }
 
     .progress-line span::before {
@@ -1138,11 +1152,15 @@ button:hover
         padding-left: 0.5rem;
         padding-bottom: 10px;
     }
-
     button {
         margin-top: 15px;
         padding: 6px 12px;
         font-size: 12px;
+    }
+
+    .exp span {
+        display: block;
+        margin-top: 35px;
     }
 }
 
@@ -1155,6 +1173,16 @@ button:hover
 
     .logo {
         font-size: 20px;
+    }
+
+    .home{
+        margin-top: 5px;
+    }
+
+    .home-content h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+        width: 120%;
     }
 
     .content-right img,
@@ -1178,10 +1206,15 @@ button:hover
         font-size: 24px;
     }
 
+
     .about-text p {
         font-size: 16px;
         margin-bottom: 1.5rem;
         margin-right: 1.5rem;
+    }
+
+    .about-img{
+        display: none;
     }
 
     .container {
@@ -1207,14 +1240,15 @@ button:hover
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         align-items: center;
-        /* Adjust the gap according to your design */
     }
 
     .radial-bar {
         width: calc(50% - 10px); /* Adjust the width and margin according to your design */
         height: 150px;
-        align-content: center;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 
     .radial-bar svg {
@@ -1223,13 +1257,21 @@ button:hover
     }
 
     .radial-bar .text {
-        font-size: 18px;
-    
+        font-size: 14px; /* Increase the font size */
+        text-align: center;
+        margin-right: 0; /* Remove or adjust the margin-right property */
     }
 
     .contact {
         grid-template-columns: 1fr;
+        
     }
+
+    .contact p {
+        margin-right: 2px;
+        
+    }
+
 
     .contact-text h2 {
         font-size: 40px;
@@ -1252,6 +1294,10 @@ button:hover
         display: block;
         margin-top: 35px;
     }
+
+    .experience-container{
+        margin: auto;
+    }
 }
 
 @media (max-width: 1830px) {
@@ -1267,5 +1313,15 @@ button:hover
     .exp span {
         display: block;
         margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .exp {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+
+    .exp span {
+        margin-top: 30px; /* Adjust the margin for smaller screens */
     }
 }
